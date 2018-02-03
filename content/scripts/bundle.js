@@ -151,7 +151,6 @@ var vanilaSearchWidget = exports.vanilaSearchWidget = function () {
                 _this.Items.style.display = 'none';
             };
             this.ElementRef.onkeyup = function (event) {
-                // const itemDropDown = document.getElementsByClassName('searchWidgetDropDown-content');   
                 console.log(event.target.value);
                 if (event.target.value === '') {
                     _this.Items.style.display = 'none';
@@ -163,10 +162,7 @@ var vanilaSearchWidget = exports.vanilaSearchWidget = function () {
                         }
                     });
                     filteredItems.forEach(function (i, k) {
-                        //  console.log(`${i}`);  
-                        //  this.Items.innerHTML = `${i}`;   
                         var li = document.createElement('li');
-                        //   const li_text = document.createTextNode( `${i}`);
                         li.innerHTML = '&#8618;' + ' ' + ('' + i);
                         li.style.cursor = 'pointer';
                         _this.Items.appendChild(li);
@@ -174,7 +170,6 @@ var vanilaSearchWidget = exports.vanilaSearchWidget = function () {
                         _this.resetbtn.style.marginTop = '200px';
                     });
                 }
-                // console.log(filteredItems);    
             };
             addEventListener('keyup', function (event) {
                 if (event.key === 'Escape') {
