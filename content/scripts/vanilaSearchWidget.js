@@ -53,7 +53,7 @@ this.resetbtn.onclick = ()=>{
    }
    this.Items.style.display = 'none';
 }
-this.ElementRef.onkeyup= (event)=>{   // const itemDropDown = document.getElementsByClassName('searchWidgetDropDown-content');   
+this.ElementRef.onkeyup= (event)=>{  
   console.log(event.target.value);
     if(event.target.value === ''){
         this.Items.style.display = 'none';
@@ -73,8 +73,7 @@ this.ElementRef.onkeyup= (event)=>{   // const itemDropDown = document.getElemen
       this.Items.style.display ='block'; 
       this.resetbtn.style.marginTop ='200px';    
     });
-}    
-    // console.log(filteredItems);    
+}         
 }     
   addEventListener('keyup',(event)=>{      
       if(event.key === 'Escape'){
