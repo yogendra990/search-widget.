@@ -95,7 +95,7 @@ var vanilaSearchWidget = exports.vanilaSearchWidget = function () {
         _classCallCheck(this, vanilaSearchWidget);
 
         this.message = " this is a test";
-        this.ListofItems = ['book', 'pen', 'remote', 'keys', 'baseball', 'backpack', 'speakers', 'notebooks'];
+        this.ListofItems = ['book', 'pen', 'remote', 'keys', 'baseball', 'backpack', 'speakers', 'notebooks', 'oven', 'Mobile', 'Cup', 'Laptop', 'remote', 'Beats', 'Desktop', 'Charger', 'pens', 'VaccumCleaner', 'TubeLight', 'flask', 'tablets', 'pharmacy', 'Travel Bag', 'Knife', 'BaseBall', 'MacBook'];
         this.Items = document.getElementById('listOfSelectedItems');
         this.ElementRef = document.getElementById('searchId');
         this.Items.style.display = 'none';
