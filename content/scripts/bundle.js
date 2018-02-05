@@ -149,6 +149,7 @@ var vanilaSearchWidget = exports.vanilaSearchWidget = function () {
                     }
                 }
                 _this.Items.style.display = 'none';
+                _this.resetbtn.style.marginTop = "10px";
             };
             this.ElementRef.onkeyup = function (event) {
                 console.log(event.target.value);

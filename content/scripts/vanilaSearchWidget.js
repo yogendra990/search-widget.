@@ -54,6 +54,7 @@ this.resetbtn.onclick = ()=>{
     }
    }
    this.Items.style.display = 'none';
+   this.resetbtn.style.marginTop = "10px";
 }
 this.ElementRef.onkeyup= (event)=>{  
   console.log(event.target.value);
